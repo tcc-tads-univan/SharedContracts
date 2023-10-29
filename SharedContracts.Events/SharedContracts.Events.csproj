@@ -1,9 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>SharedContracts</PackageId>
+    <Company>Univan</Company>
+    <Authors>Univan</Authors>
+    <Description>A useful package for sharing classes and enabling communication using Mass Transit.</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tcc-tads-univan/SharedContracts</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
