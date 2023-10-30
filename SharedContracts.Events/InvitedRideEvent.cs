@@ -2,9 +2,11 @@
 
 namespace SharedContracts
 {
-    public class DeclinedSubscriptionEvent : BaseUnivanEvent
+    public class InvitedRideEvent : BaseCarpoolEvent
     {
         public int DriverId { get; set; }
         public int StudentId { get; set; }
+        public string ScheduleTime { get; set; }
+        public decimal RidePrice { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace SharedContracts
 {
-    public class CreatedUserEvent : BaseEvent
+    public class CreatedUserEvent : BaseUnivanEvent
     {
         public int UserId { get; set; }
         public string Name { get; set; }

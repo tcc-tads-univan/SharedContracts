@@ -2,7 +2,7 @@
 
 namespace SharedContracts
 {
-    public class AcceptedSubscriptionEvent : BaseEvent
+    public class AcceptedSubscriptionEvent : BaseUnivanEvent
     {
         public int DriverId { get; set; }
         public int StudentId { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace SharedContracts.Events
 {
-    public class InvitedStudentSubscriptionEvent : BaseEvent
+    public class InvitedStudentSubscriptionEvent : BaseUnivanEvent
     {
         public int DriverId { get; set; }
         public int StudentId { get; set; }
