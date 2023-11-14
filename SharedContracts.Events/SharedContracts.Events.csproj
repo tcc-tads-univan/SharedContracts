@@ -11,7 +11,7 @@
     <Description>A useful package for sharing classes and enabling communication using Mass Transit.</Description>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/tcc-tads-univan/SharedContracts</RepositoryUrl>
-    <Version>1.2.0</Version>
+    <Version>1.5.0</Version>
   </PropertyGroup>
 
 </Project>
