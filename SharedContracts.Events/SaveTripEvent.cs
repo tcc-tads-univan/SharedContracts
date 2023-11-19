@@ -10,6 +10,7 @@ namespace SharedContracts
         public string DriverName { get; set; }
         public string InitialDestination { get; set; }
         public string FinalDestination { get; set; }
+        public int ScheduleId{ get; set; }
         public decimal Price { get; set; }
     }
 }
